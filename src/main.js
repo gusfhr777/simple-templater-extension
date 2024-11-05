@@ -81,3 +81,5 @@ class te {
     }
 
 }
+
+tp = new te(tp);
