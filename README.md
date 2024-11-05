@@ -8,8 +8,8 @@ Since this code is a wrapper of templater, you can use templater's `tp` noramlly
 ## Functions
 - tp.getFilePath(filename)
 	- search for a file and returns its absolute path.
-- saveFrontmatter(path, frontmatter)
+- tp.saveFrontmatter(path, frontmatter)
 	- replace Note's frontmatter After a timeout.
-- getFrontmatter(path)
+- tp.getFrontmatter(path)
 	- get the frontmatter of a file using absolute path. returns frontmatter in JS Object.
   
